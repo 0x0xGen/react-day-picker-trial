@@ -3,14 +3,14 @@
   "version": "9.0.0",
   "description": "Customizable Date Picker for React",
   "author": "Giampaolo Bellavite <io@gpbl.dev>",
-  "homepage": "http://react-day-picker.js.org",
+  "homepage": "https://github.com/0x0xGen/react-day-picker-trial",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gpbl/react-day-picker"
+    "url": "https://github.com/0x0xGen/react-day-picker-trial"
   },
   "bugs": {
-    "url": "https://github.com/gpbl/react-day-picker/issues"
+    "url": "https://github.com/0x0xGen/react-day-picker-trial/issues"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -78,6 +78,11 @@
     "tsc-alias": "^1.8.8",
     "tslib": "^2.6.2",
     "typescript": "~5.3.3"
+  },
+  "dependencies": {
+    "date-fns": "^3.3.1",
+    "vue-datepicker-minitest": "^9.0.1",
+    "vue-datetime3-newdemo": "^1.0.2"
   },
   "peerDependencies": {
     "date-fns": "^2.28.0 || ^3.0.0",
